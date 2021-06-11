@@ -6,6 +6,8 @@
 
 #pragma once
 
+#include "LibQSyncable_global.h"
+
 #include <QAbstractItemModel>
 #include <QAbstractListModel>
 #include <QPointer>
@@ -13,7 +15,7 @@
 #include "qspatchable.h"
 #include "qsyncablefunctions.h"
 
-class QSListModel : public QAbstractListModel, public QSPatchable
+class LIBQSYNCABLE_EXPORT QSListModel : public QAbstractListModel, public QSPatchable
 {
     Q_OBJECT
     Q_PROPERTY(int count READ count NOTIFY countChanged)

@@ -1,6 +1,7 @@
 INCLUDEPATH += $$PWD
 
 HEADERS += \
+    $$PWD/LibQSyncable_global.h \
     $$PWD/qsdiffrunner.h \
     $$PWD/qspatch.h \
     $$PWD/qspatchable.h \
